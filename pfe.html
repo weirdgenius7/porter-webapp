@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="countercontainer">
+        <div id="countertext"> Scenarios completed for today: </div>
+        <strong><div id="counter"><span id="countermainelement"></span> /20</div></strong> 
+    </div>
+    <div id="main">
+        <h1>PFE</h1>
+        <form onsubmit="handleSubmit(event)">
+            <label>Phone Number:</label>
+            <br>
+            <input type="text" id="textInput">
+            <br>
+            <br>
+            <label>Agent ID:</label>
+            <br>
+            <input name="namelist" id="namelist" list="list">
+            <datalist id="list"></datalist>
+            </input>
+            <br>
+            <br>
+            <label>Outcaller:</label>
+            <br>
+            <input name="selflist" id="selflist" list="selflist1">
+            <datalist id="selflist1"></datalist>
+            </input>
+            <br>
+            <br>
+            <label>Batch Name:</label>
+            <br>
+            <select name="list1" id="list1">
+            </select>
+    
+            <br>
+            <br>
+            <button type="submit" id="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="window.location.reload()">Clear</button>
+        </form>
+
+
+        <label id="op-label">
+            <h2>Output:</h2>
+        </label>
+        <div id="op">
+            <h3 id="op-text">-</h3>
+            <br>
+
+            <button id="copy-btn">Copy</button>
+        </div>
+    </div>
+
+
+    <script src="pfe.js"></script>
+</body>
+
+</html>
