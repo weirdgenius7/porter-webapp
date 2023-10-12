@@ -2,9 +2,9 @@
 // let FULL_URL1 = 'https://energetic-teal-galoshes.cyclic.app/cogent';
 // let FULL_URL2 = 'https://drab-erin-ladybug-vest.cyclic.app/write';
 
-let FULL_URL = 'https://drab-erin-ladybug-vest.cyclic.app/dubai/';
-let FULL_URL1 = 'https://drab-erin-ladybug-vest.cyclic.app/dubai/dubai';
-let FULL_URL2 = 'https://drab-erin-ladybug-vest.cyclic.app/dubai/write';
+let FULL_URL = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/dubai/';
+let FULL_URL1 = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/dubai/dubai';
+let FULL_URL2 = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/dubai/write';
 
 
 let batchnames=[];

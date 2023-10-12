@@ -1,6 +1,6 @@
-let FULL_URL = 'http://localhost:3000/';
-let FULL_URL1 = 'http://localhost:3000/cogent';
-let FULL_URL2 = 'http://localhost:3000/write';
+let FULL_URL = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/';
+let FULL_URL1 = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/cogent';
+let FULL_URL2 = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/write';
 
 
 let batchnames=[];
