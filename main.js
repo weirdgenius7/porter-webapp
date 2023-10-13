@@ -1,6 +1,6 @@
-let FULL_URL = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/';
-let FULL_URL1 = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/essencia';
-let FULL_URL2 = 'https://wdq3bswgni.execute-api.ap-south-1.amazonaws.com/prod/write';
+let FULL_URL = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/';
+let FULL_URL1 = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/essencia';
+let FULL_URL2 = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/write';
 
 let batchnames=[];
 let agents =[];
