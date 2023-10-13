@@ -3,7 +3,7 @@
 // let FULL_URL2 = 'https://drab-erin-ladybug-vest.cyclic.app/write';
 
 let FULL_URL = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/dubai/';
-let FULL_URL1 = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/dubai/dubai';
+let FULL_URL1 = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/dubai';
 let FULL_URL2 = 'https://gn6pd70ag1.execute-api.ap-south-1.amazonaws.com/prod/dubai/write';
 
 
