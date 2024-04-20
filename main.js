@@ -12,7 +12,7 @@ let question= [];
 let namelist = '';
 let agent_id = '';
 let self_id='';
-const maxscenariosperday=20;
+const maxscenariosperday=40;
 // email select dropdown element
 const emailSelect = document.getElementById('namelist');
 const selfemailSelect = document.getElementById('selflist');
