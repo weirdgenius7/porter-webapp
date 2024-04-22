@@ -173,7 +173,7 @@ async function handleSubmit(event) {
     }
     else {
       if(daycount>=maxscenariosperday){
-        let result = "Your 20 scenarios for the day are completed";
+        let result = "Your 40 scenarios for the day are completed";
         document.getElementById("op-text").innerHTML = result
 
       }
