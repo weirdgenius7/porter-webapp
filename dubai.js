@@ -54,9 +54,9 @@ fetch(FULL_URL1)
 
       batchnames = data.batch.map(item => item.batchname);
       agents = data.batch.map(item => item.agent);
-      scenariono = data.scenario.map(item => item.scenariono);
-      scenariocode = data.scenario.map(item => item.scenariocode);
-      question = data.scenario.map(item => item.question);
+      scenariono = data.scenario_dubai.map(item => item.scenariono);
+      scenariocode = data.scenario_dubai.map(item => item.scenariocode);
+      question = data.scenario_dubai.map(item => item.question);
   
       agents1 = agents.slice();
       agents1.sort();
