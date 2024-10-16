@@ -227,14 +227,8 @@ async function handleSubmit(event) {
     }
 
 }
-const copyBtn = document.querySelector("#copy-btn");
-const opText = document.querySelector("#op-text");
-
-copyBtn.addEventListener("click", function () {
-    const range = document.createRange();
-    range.selectNode(opText);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand("copy");
-    window.getSelection().removeAllRanges();
-});
+// Disable common copy-paste keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+  if (e.ctrlKey && (e.key === 'c' || e.key === 'x' || e.key === 'v')) {
+      e.preventDefault();
+   }
