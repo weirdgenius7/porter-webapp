@@ -7,13 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cogent</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE/Edge */
+        }
+
+        /* Disable right-click context menu */
+        body {
+            -webkit-touch-callout: none; /* Disable callouts on iOS */
+        }
+    </style>
+
+    <script>
+        // Disable right-click context menu
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        }, false);
+    </script>
 </head>
 
 <body>
     <div class="countercontainer">
         <div id="countertext"> Scenarios completed for today: </div>
-        <strong><div id="counter"><span id="countermainelement"></span> /40</div></strong> 
+        <strong>
+            <div id="counter"><span id="countermainelement"></span> /40</div>
+        </strong>
     </div>
+
     <div id="main">
         <h1>Cogent</h1>
         <form onsubmit="handleSubmit(event)">
@@ -40,24 +65,26 @@
             <br>
             <select name="list1" id="list1">
             </select>
-    
-            <br>
-            <br>
-            <button type="submit" id="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="window.location.reload()">Clear</button>
-        </form>
 
+            <br>
+            <br>
+            <button type="submit" id="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                onclick="window.location.reload()">Clear</button>
+        </form>
 
         <label id="op-label">
             <h2>Output:</h2>
         </label>
-       <!--  <div id="op">
+
+        <!-- 
+        <div id="op">
             <h3 id="op-text">-</h3>
             <br>
+            <button id="copy-btn">Copy</button> 
+        </div>
+        -->
 
-           <button id="copy-btn">Copy</button> 
-        </div> -->
     </div>
-
 
     <script src="cogent.js"></script>
 </body>
