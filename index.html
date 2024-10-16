@@ -7,9 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essencia</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Disable text selection */
+        body {
+            -webkit-user-select: none;  /* Chrome, Safari, Opera */
+            -moz-user-select: none;     /* Firefox */
+            -ms-user-select: none;      /* Internet Explorer/Edge */
+            user-select: none;          /* Non-prefixed version, currently supported by Chrome and Opera */
+        }
+    </style>
 </head>
 
-<body>
+<body oncontextmenu="return false" oncopy="return false">
     <div class="countercontainer">
         <div id="countertext"> Scenarios completed for today: </div>
         <strong>
