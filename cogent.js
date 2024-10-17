@@ -242,10 +242,5 @@ copyBtn.addEventListener("click", function () {
   
 });
 
-document.addEventListener("keydown", function (e) {
-    if (e.key === "PrintScreen") {
-        alert("Screenshots are not allowed!");
-        e.preventDefault();
-    }
-});
+
 
